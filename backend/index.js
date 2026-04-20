@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 8080;
 // ✅ CORS (ONLY ONCE, NO STAR)
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://job-portal-001-navy.vercel.app",
     credentials: true,
   })
 );
